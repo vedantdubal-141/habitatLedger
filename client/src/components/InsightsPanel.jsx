@@ -1,3 +1,4 @@
+// CSS-only charts — replaced initial Recharts dependency for zero-bundle rendering
 import { useMemo } from 'react'
 import dayjs from 'dayjs'
 import useIssueStore from '../store/useIssueStore'
