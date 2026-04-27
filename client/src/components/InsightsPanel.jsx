@@ -1,3 +1,4 @@
+// severity breakdown chart — added below category chart
 // CSS-only charts — replaced initial Recharts dependency for zero-bundle rendering
 import { useMemo } from 'react'
 import dayjs from 'dayjs'
