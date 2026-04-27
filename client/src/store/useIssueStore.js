@@ -116,3 +116,4 @@ const useIssueStore = create((set, get) => ({
 
 export default useIssueStore
 // zustand store setup
+// persist middleware initialized
