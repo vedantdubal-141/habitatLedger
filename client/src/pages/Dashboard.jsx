@@ -1,3 +1,4 @@
+// Explorer tab wired into Dashboard
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import useIssueStore from '../store/useIssueStore'
