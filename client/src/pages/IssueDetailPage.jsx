@@ -1,3 +1,4 @@
+// status change → timeline event wiring
 // IssueDetailPage — full timeline and action sidebar
 import { useState } from 'react'
 import { useParams, useNavigate, Link } from 'react-router-dom'
