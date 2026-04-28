@@ -1,3 +1,4 @@
+// edit issue route — prefill from existing issue data
 // status change → timeline event wiring
 // IssueDetailPage — full timeline and action sidebar
 import { useState } from 'react'
