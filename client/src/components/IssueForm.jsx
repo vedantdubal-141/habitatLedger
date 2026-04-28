@@ -1,3 +1,4 @@
+// react-dropzone wired for file and image attachments
 import { useState, useCallback, useEffect } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import { useDropzone } from 'react-dropzone'
