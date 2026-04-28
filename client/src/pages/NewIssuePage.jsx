@@ -1,3 +1,4 @@
+// IssueForm wired into NewIssuePage with store integration
 import { Link, useParams } from 'react-router-dom'
 import IssueForm from '../components/IssueForm'
 import useIssueStore from '../store/useIssueStore'
