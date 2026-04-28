@@ -1,3 +1,4 @@
+// render filtered issue cards when category is selected
 // category indent and connector lines — terminal tree style
 import { useState, useMemo } from 'react'
 import { CATEGORIES, STATUSES, SEVERITIES } from '../data/constants'
