@@ -1,3 +1,4 @@
+// category indent and connector lines — terminal tree style
 import { useState, useMemo } from 'react'
 import { CATEGORIES, STATUSES, SEVERITIES } from '../data/constants'
 import useIssueStore from '../store/useIssueStore'
