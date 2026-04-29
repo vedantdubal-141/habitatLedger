@@ -1,0 +1,19 @@
+{
+  "name": "renttrack-server",
+  "version": "1.0.0",
+  "description": "RentTrack backend API — rental issue tracker",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "axios": "^1.15.2",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.5.0",
+    "multer": "^2.1.1"
+  }
+}
