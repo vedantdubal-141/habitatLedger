@@ -1,3 +1,4 @@
+// store rewritten to use backend API via axios
 import { create } from 'zustand'
 import * as api from '../api/issueApi'
 
