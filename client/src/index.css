@@ -280,6 +280,12 @@ a:hover { color: var(--c-primary-dark); }
 .navbar-brand { display: flex; align-items: center; gap: var(--sp-2); text-decoration: none; }
 .navbar-brand-icon { font-size: 1.5rem; }
 .navbar-brand-name { font-size: var(--text-lg); font-weight: 700; color: var(--c-primary); letter-spacing: -0.02em; }
+
+/* Visibility Utilities */
+.desktop-only { display: flex; }
+.mobile-only { display: none; }
+.mobile-bottom-nav { display: none; }
+
 .navbar-links { display: flex; align-items: center; gap: var(--sp-5); }
 .navbar-link {
   font-size: var(--text-sm); font-weight: 500; color: var(--c-text-muted);
