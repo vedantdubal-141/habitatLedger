@@ -333,3 +333,4 @@ export default function AwarenessPage() {
     </div>
   )
 }
+// housing quality crisis hero section implemented
