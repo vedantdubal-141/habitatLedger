@@ -334,3 +334,4 @@ export default function AwarenessPage() {
   )
 }
 // housing quality crisis hero section implemented
+// construction defect risk level cards added
