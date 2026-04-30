@@ -218,3 +218,4 @@ const seedDB = async () => {
 }
 
 seedDB()
+// updated descriptions with real defect literature
