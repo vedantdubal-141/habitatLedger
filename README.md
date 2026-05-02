@@ -7,8 +7,8 @@ HabitatLedger is a full-stack web application designed to empower tenants by pro
 ## 🔗 Important Links
 
 * **Figma Design:** [View on Figma](https://www.figma.com/design/mYVmO4pvqrD2Kz3WqUeJLL/Untitled?node-id=1-757&t=0WtgMXsgxGMLtN7b-0)
-* **Live Deployed Project:** [Frontend Link TBA]
-* **Backend Deployed API:** [Backend Link TBA]
+* **Live Deployed Project:** [https://habitatledger-client.onrender.com](https://habitatledger-client.onrender.com)
+* **Backend Deployed API:** [https://habitatledger-api.onrender.com](https://habitatledger-api.onrender.com)
 * **Postman Documentation:** [Postman Link TBA]
 * **YouTube Demo:** [YouTube Link TBA]
 
