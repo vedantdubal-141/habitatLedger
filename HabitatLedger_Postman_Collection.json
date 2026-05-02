@@ -1,0 +1,128 @@
+{
+  "info": {
+    "name": "HabitatLedger API",
+    "description": "REST API documentation for the HabitatLedger issue tracking platform.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Issues",
+      "item": [
+        {
+          "name": "Get All Issues",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/api/issues",
+              "host": ["{{base_url}}"],
+              "path": ["api", "issues"]
+            }
+          }
+        },
+        {
+          "name": "Get Issue Stats",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/api/issues/stats",
+              "host": ["{{base_url}}"],
+              "path": ["api", "issues", "stats"]
+            }
+          }
+        },
+        {
+          "name": "Get Single Issue",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/api/issues/:id",
+              "host": ["{{base_url}}"],
+              "path": ["api", "issues", ":id"],
+              "variable": [{"key": "id", "value": "replace_with_id"}]
+            }
+          }
+        },
+        {
+          "name": "Create Issue",
+          "request": {
+            "method": "POST",
+            "url": {
+              "raw": "{{base_url}}/api/issues",
+              "host": ["{{base_url}}"],
+              "path": ["api", "issues"]
+            },
+            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"title\": \"Leaking Pipe\",\n  \"description\": \"Water dripping from the kitchen sink.\",\n  \"category\": \"water\",\n  \"severity\": \"Medium\"\n}"
+            }
+          }
+        },
+        {
+          "name": "Update Issue Status",
+          "request": {
+            "method": "PATCH",
+            "url": {
+              "raw": "{{base_url}}/api/issues/:id/status",
+              "host": ["{{base_url}}"],
+              "path": ["api", "issues", ":id", "status"],
+              "variable": [{"key": "id", "value": "replace_with_id"}]
+            },
+            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"status\": \"In Progress\"\n}"
+            }
+          }
+        },
+        {
+          "name": "Close Issue",
+          "request": {
+            "method": "PATCH",
+            "url": {
+              "raw": "{{base_url}}/api/issues/:id/close",
+              "host": ["{{base_url}}"],
+              "path": ["api", "issues", ":id", "close"],
+              "variable": [{"key": "id", "value": "replace_with_id"}]
+            },
+            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"resolutionNote\": \"Fixed the pipe with sealant.\"\n}"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Upload",
+      "item": [
+        {
+          "name": "Upload Files",
+          "request": {
+            "method": "POST",
+            "url": {
+              "raw": "{{base_url}}/api/upload?category=water",
+              "host": ["{{base_url}}"],
+              "path": ["api", "upload"],
+              "query": [{"key": "category", "value": "water"}]
+            },
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {"key": "files", "type": "file", "src": ""}
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "https://habitatledger-api.onrender.com",
+      "type": "string"
+    }
+  ]
+}
