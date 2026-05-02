@@ -1,23 +1,46 @@
+# HabitatLedger (formerly RentTrack)
 
-# RentTrack
-
-RentTrack is a full-stack web application for tracking and managing rental property issues. It provides a structured way to log, categorize, monitor, and resolve issues with supporting media and lifecycle tracking.
-
-The system is designed as a **personal tracking tool**, focusing on clarity, organization, and completeness rather than external validation or automation.
+HabitatLedger is a full-stack web application designed to empower tenants by providing a structured way to log, categorize, monitor, and resolve rental property issues with supporting media, lifecycle tracking, and integrated legal rights awareness.
 
 ---
 
-## Architecture Overview
+## 🔗 Important Links
 
-The project is organized into three main parts:
-
-* **client** – React frontend (Vite + Material UI)
-* **server** – Express + MongoDB backend API
-* **neo** – auxiliary workspace for project planning, summaries, and generated outputs
+* **Figma Design:** [View on Figma](https://www.figma.com/design/mYVmO4pvqrD2Kz3WqUeJLL/Untitled?node-id=1-757&t=0WtgMXsgxGMLtN7b-0)
+* **Live Deployed Project:** [Frontend Link TBA]
+* **Backend Deployed API:** [Backend Link TBA]
+* **Postman Documentation:** [Postman Link TBA]
+* **YouTube Demo:** [YouTube Link TBA]
 
 ---
 
-## Project Structure
+## ⚠️ Problem Statement
+
+Millions of tenants deal with unresolved construction defects, maintenance negligence, and structural hazards in their rental units. Reporting these issues often leads to fragmented communication (texts, emails, verbal complaints), making it difficult to hold property management accountable. Furthermore, many renters are unaware of their legal rights under federal and state housing laws, leaving them vulnerable to unsafe living conditions and wrongful eviction.
+
+## 💡 Solution
+
+**HabitatLedger** bridges this gap by providing an organized, immutable ledger for tenants to document housing issues. It moves complaints from chaotic text messages into a structured dashboard where users can upload proof (photos/documents), categorize severity, and track the lifecycle of a complaint from "Open" to "Resolved". Crucially, it incorporates an educational layer—directly citing construction defect literature and housing laws (like the Fair Housing Act and state-specific tenant rights)—empowering users with the knowledge to advocate for themselves effectively.
+
+## ✨ Features
+
+* **Issue Management Dashboard:** A centralized kanban-style and list-style view of all property issues.
+* **Evidence Uploads:** Attach multiple photos and documents (powered by Multer) to build a solid paper trail.
+* **Issue Lifecycle Tracking:** Track status changes with a detailed, timestamped event timeline.
+* **Resolution Proof:** Force users to upload proof of resolution and closing notes before an issue can be marked "Closed".
+* **Legal Knowledge Base:** Expandable federal housing laws (Title X, FHA, HMDA) and state-by-state tenant right comparisons.
+* **Defect Awareness:** Educational cards explaining systemic structural defects, pest risks, and HVAC failures with sourced severity levels.
+* **Mobile-First Responsive Design:** Bottom navigation bar for mobile users and clean top navigation for desktop.
+* **Tree-Directory Issue Explorer:** Terminal-inspired visual hierarchy to filter issues by status and category.
+
+## 🛠️ Tech Stack
+
+* **Frontend:** React 19, Vite, Material UI (MUI Icons), Zustand (State Management), React-Dropzone
+* **Backend:** Node.js, Express.js, MongoDB, Mongoose
+* **Middleware & Tools:** Multer (File Uploads), CORS, dotenv
+* **Architecture:** RESTful API, MVC Pattern
+
+## 📂 Proper Folder Structure
 
 ```text
 .
