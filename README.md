@@ -10,8 +10,9 @@ HabitatLedger is a full-stack web application designed to empower tenants by pro
 * **Live Deployed Project:** [https://habitatledger.vercel.app](https://habitatledger.vercel.app)
 * **Backend Deployed API:** [https://habitatledger-api.onrender.com](https://habitatledger-api.onrender.com)
 * **Postman Documentation:** [https://documenter.getpostman.com/view/50839360/2sBXqKofTh](https://documenter.getpostman.com/view/50839360/2sBXqKofTh)
-* **YouTube Demo:** [YouTube Link TBA]
-
+* **YouTube Demo:** [Watch on YouTube](https://youtu.be/9H7uuvsDRLk)
+* **GitHub Repository:** [vedantdubal-141/habitatLedger](https://github.com/vedantdubal-141/habitatLedger)
+* **Official PRs:** [CodingGita Project PRs](https://github.com/codinggita/habitatLedger/pulls?q=is%3Apr+is%3Aclosed)
 ---
 
 ## ⚠️ Problem Statement
