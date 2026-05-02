@@ -33,6 +33,18 @@ export default function Dashboard() {
 
   return (
     <div className="dashboard container fade-in">
+      {/* Free hosting notice */}
+      <div style={{
+        background: 'rgba(25, 118, 210, 0.08)', color: '#1976d2',
+        border: '1px solid rgba(25, 118, 210, 0.2)', borderRadius: 'var(--r-md)',
+        padding: 'var(--sp-2) var(--sp-4)', marginBottom: 'var(--sp-4)',
+        fontSize: 'var(--text-xs)', fontWeight: 500,
+        display: 'flex', alignItems: 'center', gap: '8px'
+      }}>
+        <span>💡</span>
+        <span>Hosted on a free server. If you just opened the link, please wait up to 60 seconds for the backend to wake up!</span>
+      </div>
+
       {/* Error banner */}
       {error && (
         <div style={{
